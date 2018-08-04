@@ -1,0 +1,66 @@
+body{
+   font-family: Roboto Slab', serif ;
+}
+/* for background image on myImage and header */
+header{
+ 
+    text-align: center;
+    color: #FFF;
+    background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&h=350") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 680px;
+
+}
+
+/* for styling on myImage */
+header img {
+display: block;
+margin: 200px auto 40px;
+}
+
+/* styling for text under myImage */
+.intro{
+display: block;
+text-transform: uppercase;
+font-family: 'Roboto Slab', serif;
+font-size: 2em;
+font-weight: 600;  /*to make font bold*/
+color:navy;
+}
+section {
+padding-top: 55px;
+padding-left: 55px;
+padding-right: 55px;
+padding-bottom: 50px;
+
+}
+.project{
+margin-bottom:40px;
+}
+#portfolio{
+background:rgb(180, 213, 227);
+
+}
+#action{
+text-align: left;
+color: navy;
+background: rgb(148,176, 247);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+font-weight:500;
+}
+.socialBtn{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a:hover,
+a:focus,
+a:active,
+a.active {
+text-decoration: none;
+}
