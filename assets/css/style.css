@@ -30,6 +30,7 @@ font-size: 2em;
 font-weight: 600;  /*to make font bold*/
 color:navy;
 }
+/* styles for setting padding on every section */
 section {
 padding-top: 55px;
 padding-left: 55px;
@@ -37,13 +38,16 @@ padding-right: 55px;
 padding-bottom: 50px;
 
 }
+
 .project{
 margin-bottom:40px;
 }
+/* styling for portfolio */
 #portfolio{
 background:rgb(180, 213, 227);
 
 }
+
 #action{
 text-align: left;
 color: navy;
@@ -53,6 +57,7 @@ background: rgb(148,176, 247);
 -o-background-size: cover;
 background-size: cover;
 font-weight:500;
+
 }
 .socialBtn{
     padding-left: 10px;
@@ -63,4 +68,8 @@ a:focus,
 a:active,
 a.active {
 text-decoration: none;
+}
+p{
+    font-family: cursive 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
